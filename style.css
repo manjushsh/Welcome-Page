@@ -1,8 +1,7 @@
 body
 {
     background-image: url('assets/backw.jpeg');
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    font-family: 'Raleway',sans-serif;
 }
 .svgm
 {
@@ -47,10 +46,9 @@ path,.st1
 }
 .navb
 {
-    position: bottom;
-    bottom: 0%;
-    /* background: linear-gradient(to right,#36AD00,#0E620B); */
     width: 100%;
+    font-size: 22px;
+    font-weight: 800;
 }
 .tog
 {
@@ -134,6 +132,11 @@ label {
         width: 90%;
         text-align: center;
         margin: 0 auto;
+    }
+
+    #toggle:checked + .svgm
+    {
+        display: none;
     }
      
 }
